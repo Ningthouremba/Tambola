@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* File: index.css */
 body {
   margin: 0;
@@ -8,4 +9,16 @@ body {
 .app {
   padding: 20px;
   text-align: center;
+=======
+/* File: index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+>>>>>>> 3b8d663c75e12d13e54e4fd81bfa4e14924b36ae
 }

@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+<<<<<<< HEAD
     "test": "jest",
+=======
+>>>>>>> 3b8d663c75e12d13e54e4fd81bfa4e14924b36ae
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
