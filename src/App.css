@@ -282,9 +282,9 @@ body, html {
   gap: 6px;
   margin-bottom: 10px;
   margin-top: 10px;
-  max-height: 200px; /* ✅ Limit height */
-  overflow-y: auto;   /* ✅ Enable vertical scroll */
-  padding-right: 5px; /* ✅ Avoid scrollbar overlap */
+  max-height: 200px; /* Limit height */
+  overflow-y: auto;   /* Enable vertical scroll */
+  padding-right: 5px; /* Avoid scrollbar overlap */
 }
 .booking .grid::-webkit-scrollbar {
   width: 6px;
@@ -689,7 +689,7 @@ input {
   color: white;
 }
 
-/* ✅ Annex CSS: Full Mobile Responsiveness Fix */
+/* Annex CSS: Full Mobile Responsiveness Fix */
 
 @media (max-width: 766px) {
  
@@ -706,35 +706,6 @@ input {
   .number-grid {
     grid-template-columns: repeat(6, 1fr);
   }
-
-  /* .tickets {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  } 
-
-  .admin-controls {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .winner-settings button{
-    width: 13rem;
-    padding-left: 3.4rem;
-    
-  }
-
-
-  /* .ticket td {
-    width: 30px;
-    height: 26px;
-    font-size: 12px;
-  }
-
-  .ticket-view,
-  .inline-ticket,
-  .ticket-inline {
-    width: 100%;
-    max-width: 100%;
-  } */
 
 .price{
     display: flex;
