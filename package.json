@@ -3,16 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-<<<<<<< HEAD
-    "test": "jest",
-=======
->>>>>>> 3b8d663c75e12d13e54e4fd81bfa4e14924b36ae
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "start": "vite preview"
+},
+
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
