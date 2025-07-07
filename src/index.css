@@ -1,0 +1,11 @@
+/* File: index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+}
