@@ -21,7 +21,7 @@ function numberToWords(num) {
 }
 
 
-//ADD THIS FUNCTION: Fixes your error "speak is not defined"
+//speaking fuction
 function speak(text, voiceType, rate) {
   if (!window.speechSynthesis) return;
   const u = new SpeechSynthesisUtterance(text);
